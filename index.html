@@ -2,41 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Web App</title>
-
-  <!-- SEO -->
-  <meta name="description" content="A modern web application built with HTML, CSS, and JavaScript">
-
-  <!-- Styles -->
+  <title>E-Library</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1>🚀 My Web App</h1>
-    <p>Simple. Fast. Modern.</p>
-  </header>
+  <h1>📚 E-Library</h1>
 
-  <!-- Main Section -->
-  <main>
-    <section class="card">
-      <h2>Welcome 👋</h2>
-      <p>This is a professional starter web project ready for development.</p>
+  <div class="books">
 
-      <button onclick="showMessage()">Get Started</button>
-    </section>
-  </main>
+    <!-- Book 1 -->
+    <div class="book">
+      <a href="books/math.pdf" target="_blank">
+        <img src="images/math.jpg" alt="Math Book">
+      </a>
+      <h3>Mathematics Basics</h3>
+    </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 My Web App. All rights reserved.</p>
-  </footer>
+    <!-- Book 2 -->
+    <div class="book">
+      <a href="books/english.pdf" target="_blank">
+        <img src="images/english.jpg" alt="English Book">
+      </a>
+      <h3>English Grammar</h3>
+    </div>
 
-  <!-- Script -->
-  <script src="script.js"></script>
+    <!-- Book 3 -->
+    <div class="book">
+      <a href="books/science.pdf" target="_blank">
+        <img src="images/science.jpg" alt="Science Book">
+      </a>
+      <h3>Basic Science</h3>
+    </div>
+
+  </div>
 
 </body>
 </html>
